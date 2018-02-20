@@ -16,6 +16,9 @@ var browserConfig = {
             { test: /\.(js|jsx)$/, use: 'babel-loader'},
         ]
     },
+    resolve: {
+        extensions: ['.js', '.jsx']
+    },
     plugins: [
             new webpack.DefinePlugin({
                 __isBrowser__: "true"
@@ -34,8 +37,11 @@ var serverConfig = {
     },
     module: {
         rules:[
-            { test: /\.(js)$/, use: 'babel-loader'},
+            { test: /(\.js|\.jsx)$/, use: 'babel-loader'},
         ]
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     },
     plugins: [
             new webpack.DefinePlugin({
