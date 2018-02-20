@@ -1,0 +1,17 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "test app for learning node server rendering and react routing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "route",
+    "nodejs",
+    "express"
+  ],
+  "author": "Johnatan Dante",
+  "license": "MIT"
+}
