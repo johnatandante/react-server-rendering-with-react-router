@@ -5,6 +5,9 @@ test app for learning node server rendering and react routing
 Following tutorial from:
 * https://www.youtube.com/watch?v=mZEv4mHsU5E
 
+Source @:
+* http://github.com/tylermcginnis/rrssr
+
 Tyler Mc Ginnis santo subito :-)
 
 # Packages
